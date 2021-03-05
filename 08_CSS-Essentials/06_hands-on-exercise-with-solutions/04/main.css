@@ -1,0 +1,24 @@
+
+.one, .two {
+  with: 400px;
+  height: 200px;
+  border: 40px dashed red;
+  margin: 20px auto;
+}
+
+.two {
+  box-sizing: border-box;
+}
+
+
+/* Margins and Paddings */
+/*
+  TRBL
+  Top Right Bottom Left
+
+  TB Rl
+  Top Bottom Right Left
+
+  T R B L
+  Top Right Bottom Left
+*/
