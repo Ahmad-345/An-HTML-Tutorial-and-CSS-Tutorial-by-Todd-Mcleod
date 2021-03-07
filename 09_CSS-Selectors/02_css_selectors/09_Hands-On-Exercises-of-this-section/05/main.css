@@ -1,0 +1,21 @@
+
+body {
+    font-size: 40px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+p {
+    margin-top: 120px;
+}
+
+p:first-letter {
+    font-size: 200px;
+    line-height: 0;
+    font-weight: normal;
+}
+
+p:first-line {
+    color: dodgerblue;
+    font-weight: bold;
+}

@@ -1,0 +1,20 @@
+
+body {
+    font-size: 300px;
+}
+
+a:link {
+    color: purple;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:active {
+    color: orangered;
+}
