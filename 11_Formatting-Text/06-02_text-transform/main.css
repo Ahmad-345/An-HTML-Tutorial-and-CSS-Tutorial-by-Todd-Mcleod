@@ -1,0 +1,9 @@
+
+h1 {
+    font-family: MonoLisa, sans-serif;
+    font-size: 3rem;
+    font-weight: normal;
+    /*  has many values to play with  */
+    /*text-transform: uppercase;*/
+    font-variant-numeric: revert;
+}
