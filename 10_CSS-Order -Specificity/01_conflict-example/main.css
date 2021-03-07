@@ -1,0 +1,22 @@
+
+body {
+    font-size: 50px;
+}
+
+h1 {
+    color: red;
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+/*#emph {*/
+/*    color: blue;*/
+/*}*/
+
+.cowboy {
+    color: green;
+}
+
+.emphasize {
+    color: gold;
+}
