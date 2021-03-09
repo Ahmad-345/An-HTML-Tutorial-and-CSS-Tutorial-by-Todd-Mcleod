@@ -1,0 +1,23 @@
+html {
+    font-size: 10rem;
+}
+
+p {
+    text-decoration: underline;
+    text-decoration: line-through underline overline;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*
+    these did not work
+    text-decoration-line: underline;
+    text-decoration-color: darkgreen
+    text-decoration-style: wavy;
+*/
+
+#deleteTag {
+    text-decoration: none;
+}
