@@ -1,0 +1,9 @@
+body {
+    font-family: sans-serif;
+}
+
+a {
+    font-size: 13rem;
+    text-shadow: 5px 15px 20px gold;
+    text-decoration: none;
+}

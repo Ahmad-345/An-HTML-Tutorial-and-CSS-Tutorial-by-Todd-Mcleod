@@ -1,0 +1,12 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-transform: uppercase;
+    word-spacing: 2rem;
+}
+
+p {
+    letter-spacing: 1rem;
+}
