@@ -5,3 +5,8 @@ figure {
 figcaption {
     border: 1px solid gray;
 }
+
+img {
+    width: 350px;
+    height: 200px;
+}
