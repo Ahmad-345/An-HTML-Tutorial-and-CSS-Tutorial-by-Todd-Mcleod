@@ -1,0 +1,33 @@
+div {
+  width: 200px;
+  height: 200px;
+  border: 1px solid red;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+img {
+  width: 350px;
+  height: 200px;
+  border: 10px groove orange;
+  padding: 20px;
+  margin: 20px;
+}
+
+.one {
+  border: 10px dashed orange;
+  width: 350px;
+  height: 200px;
+}
+
+.two {
+  border: 10px dotted orange;
+  width: 350px;
+  height: 200px;
+}
+
+.three {
+  border: 10px double orange;
+  width: 350px;
+  height: 200px;
+}
