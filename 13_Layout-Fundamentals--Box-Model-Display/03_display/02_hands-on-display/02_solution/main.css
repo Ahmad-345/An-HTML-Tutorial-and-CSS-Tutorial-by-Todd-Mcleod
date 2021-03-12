@@ -1,0 +1,30 @@
+
+body {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.box {
+  width: 180px;
+  height: 50px;
+  display: inline-block;
+  border-radius: 8px;
+  margin: 5px;
+  border: 2px solid black;
+}
+
+.box:nth-child(4n+1) {
+  background-color: green;
+}
+
+.box:nth-child(4n+2) {
+  background-color: gold;
+}
+
+.box:nth-child(4n+3) {
+  background-color: dodgerblue;
+}
+
+.box:nth-child(4n+4) {
+  background-color: crimson;
+}
