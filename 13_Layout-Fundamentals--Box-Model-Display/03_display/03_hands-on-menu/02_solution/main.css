@@ -1,0 +1,31 @@
+
+/* * {
+  border: 1px dashed hotpink;
+} */
+
+html {
+  font-size: 2rem;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  border-radius: 50px;
+  display: inline-block;
+  border: 2px solid black;
+}
+
+a {
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 50px;
+  display: inline-block;
+  border: 2px solid black; 
+}
+
+a:hover {
+  background-color: dodgerblue;
+  color: white;
+}
