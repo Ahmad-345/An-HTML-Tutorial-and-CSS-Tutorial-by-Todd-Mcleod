@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  border: 2px solid blue;
+  margin: 5px;
+  line-height: 100px;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Bitstream Vera Sans Mono", sans-serif
+}
