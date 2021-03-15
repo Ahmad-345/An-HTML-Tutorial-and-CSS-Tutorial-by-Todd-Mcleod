@@ -15,5 +15,6 @@ div {
   line-height: 100px;
   text-align: center;
   font-size: 2rem;
-  font-family: "Bitstream Vera Sans Mono", sans-serif
+  font-family: "Bitstream Vera Sans Mono", sans-serif;
+  font-weight: bold;
 }
