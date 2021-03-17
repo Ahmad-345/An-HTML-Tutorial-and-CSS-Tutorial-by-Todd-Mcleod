@@ -1,0 +1,12 @@
+
+The Stretch property of Align-items only works if the flex-items it is applied to
+do not have a specific height or width. When the main-axis (flex-direction: Row) is
+Row it effects The Height and when the main-axis is Column (flex-direction: column)it
+effects the Width of the flex-items.
+
+When the flex-direction is set to Row (main-axis), the Align-items's stretch property
+will stretch the flex items on the cross-axis, so it will effect its height in terms of columns
+as the main-axis is Row, on the other hands when the flex-direction is set to Column (main-axis)
+the Align-items's stretch property will stretch the flex items on the cross-axis, so it will
+effect its width in terms of rows as the main-axis is Column.
+
