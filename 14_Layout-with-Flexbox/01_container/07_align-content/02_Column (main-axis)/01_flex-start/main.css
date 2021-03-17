@@ -1,0 +1,28 @@
+/* flex container */
+body {
+  display: flex;
+  flex-flow: column wrap;
+
+  /*align-items: flex-start;*/
+  align-content: flex-start;
+
+  border: 5px solid hotpink;
+  height: 800px;
+  box-shadow: -15px -15px 20px hotpink, 15px 15px 20px hotpink;
+}
+
+/* flex items*/
+div {
+  width: 100px;
+  height: 100px;
+  background-color: dodgerblue;
+  border: 2px solid #f4f4f4;
+  box-sizing: border-box;
+  margin: 5px;
+  line-height: 100px;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Bitstream Vera Sans Mono", sans-serif;
+  font-weight: bold;
+  color: #f4f4f4;
+}
