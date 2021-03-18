@@ -1,0 +1,95 @@
+/* flex container */
+body {
+    display: flex;
+    flex-flow: column wrap;
+
+    border: 5px solid #283e57;
+    height: 900px;
+    box-shadow: -15px -15px 20px #283e57, 15px 15px 20px #283e57;
+    margin: 20px;
+}
+
+/* flex items*/
+div {
+    width: 70px;
+    height: 70px;
+    background-color: #3f6288;
+    border: 2px solid #f4f4f4;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 5px;
+    line-height: 70px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: "Bitstream Vera Sans Mono", sans-serif;
+    font-weight: bold;
+    color: #f4f4f4;
+}
+
+#oo {
+    order: 1;
+    background-color: skyblue;
+    /*  n comes first in the html document so it will appear first as well on screen yet both 'o' and 'n'
+     have the same order */
+}
+
+#pp {
+    order: 100;
+    background-color: green;
+}
+
+#nn {
+    order: 1;
+}
+
+#mm {
+    order: 2;
+}
+
+#ll {
+    order: 3;
+}
+
+#kk {
+    order: 4;
+}
+
+#jj {
+    order: 5;
+}
+
+#ii {
+    order: 6;
+}
+
+#hh {
+    order: 7;
+}
+
+#gg {
+    order: 8;
+}
+
+#ff {
+    order: 9;
+}
+
+#ee {
+    order: 10;
+}
+
+#dd {
+    order: 11;
+}
+
+#cc {
+    order: 12;
+}
+
+#bb {
+    order: 13;
+}
+
+#aa {
+    order: 14;
+}
