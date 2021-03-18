@@ -4,9 +4,10 @@ body {
     flex-flow: row wrap;
     justify-content: center;
 
-    /* align-items: flex-start; */
-    /* align-items: flex-end; */
-    align-items: center;
+     /*align-items: flex-start;*/
+     /*align-items: flex-end;*/
+    /*align-items: center;*/
+    align-items: baseline;
 
     border: 5px solid hotpink;
     height: 800px;
@@ -30,12 +31,32 @@ div {
     color: #f4f4f4;
 }
 
-#first {    align-self: flex-start;   }
+#first {
+    font-size: 1rem;
+    background-color: red;
+    align-self: baseline;
+}
 
-#second {    align-self: center;   }
+#second {
+    height: 150px;
+    background-color: green;
+    align-self: baseline;
+}
 
-#third {    align-items: baseline;   }
+#third {
+    height: 250px;
+    font-size: 4rem;
+    align-self: baseline;
+}
 
-#forth {    align-self: flex-end;   }
+#forth {
+    height: 150px;
+    background-color: green;
+    align-self: baseline;
+}
 
-#fifth {    align-self: flex-end;   }
+#fifth {
+    font-size: 1rem;
+    background-color: red;
+    align-self: baseline;
+}
