@@ -12,7 +12,7 @@ body {
     border: 5px solid crimson;
     color: silver;
     background-color: #003476;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
 }
 
 p {
