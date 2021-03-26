@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>media types combination and Expressions</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="print.css" media="print">
+
+  <!-- this does not work you can't have multiple media types in single statement -->
+  <link rel="stylesheet" href="multiple.css" media="print and screen">
+
+  <!-- instead we can have type 'All' and it will effect all types  -->
+  <link rel="stylesheet" href="multiple.css" media="all">
+</head>
+<body>
+  <h1>Bordered me when printed</h1>
+  <p>If multiple media types could be used in a media query, I would have a border when on screen and when printed.</p>
+</body>
+</html>
