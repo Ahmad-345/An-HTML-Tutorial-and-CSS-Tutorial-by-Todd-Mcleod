@@ -1,0 +1,20 @@
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem; /* defalut */
+    border: 5px solid crimson;
+    color: silver;
+    background-color: #003476;
+    font-family: Roboto;
+}
+
+p {
+    margin: 20px;
+}
