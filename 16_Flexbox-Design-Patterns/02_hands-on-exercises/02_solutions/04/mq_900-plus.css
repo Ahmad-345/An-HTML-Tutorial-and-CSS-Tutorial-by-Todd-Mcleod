@@ -1,0 +1,22 @@
+body {
+    max-width: 1200px;
+    order: 7;
+}
+
+.c1 {
+    width: 25%;
+}
+
+.c2 {
+    width: 75%;
+    order: -1;
+}
+
+.c3, .c4 {
+    width: 50%;
+    order: 2;
+}
+
+.c5, .c6, .c7 {
+    width: 33.33%;
+}

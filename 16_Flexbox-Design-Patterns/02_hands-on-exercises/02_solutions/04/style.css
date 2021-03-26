@@ -1,0 +1,39 @@
+div {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.c1 {
+    background-color: #0c2f63;
+    background-image: url("../../../../00_img/red foxes.jpg");
+}
+
+.c2 {
+    background-color: #28aadf;
+    background-image: url("../../../../00_img/humpback whale.jpg");
+}
+
+.c3 {
+    background-color: #8b0d25;
+    background-image: url("../../../../00_img/121.jpg");
+}
+
+.c4 {
+    background-color: #67451e;
+    background-image: url("../../../../00_img/122.jpg");
+}
+
+.c5 {
+    background-color: #1d623a;
+    background-image: url("../../../../00_img/124.jpg");
+}
+
+.c6 {
+    background-color: #d4e508;
+    background-image: url("../../../../00_img/snowy owl.jpg");
+}
+
+.c7 {
+    background-color: #8019c5;
+    background-image: url("../../../../00_img/bottlenose dolphins.jpg");
+}

@@ -1,0 +1,24 @@
+html, body, div {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-flow: row wrap;
+    /* formatting */
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.c1, .c2, .c3, .c4, .c5, .c6, .c7 {
+    width: 100%;
+    /* formatting */
+    min-height: 125px;
+    color: #fff;
+    line-height: 125px;
+    text-align: center;
+    font-size: 3rem;
+}
+
