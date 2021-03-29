@@ -1,0 +1,24 @@
+html, body, header, article, aside, footer  {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+body {
+    display: flex;
+    flex-flow: row wrap;
+    /* formatting */
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+header, article, aside, footer {
+    width: 100%;
+}
