@@ -1,0 +1,22 @@
+body {
+  position: relative;
+  /* formatting */
+  max-width: 700px;
+  margin: 0 auto;
+  border: 2px solid red;
+}
+
+#left {
+  position: absolute;
+  /* formatting */
+  width: 200px;
+  height: 400px;
+  border: 2px solid seagreen;
+}
+
+#right {
+  margin-left: 200px;
+  /* formatting */
+  height: 400px;
+  border: 2px solid purple;
+}
