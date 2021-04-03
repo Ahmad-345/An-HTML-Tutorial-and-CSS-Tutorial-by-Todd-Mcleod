@@ -1,0 +1,40 @@
+html, body, header, aside, main, footer {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightgray;
+  width: 85%;
+  margin: 20px auto;
+}
+
+header {
+  background-color: tomato;
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+aside {
+  background-color: skyblue;
+  height: 200px;
+  width: 24%;
+  float: left;
+  margin-right: 20px;
+}
+
+main {
+  background-color: lightsalmon;
+  height: 200px;
+  width: 74%;
+  float: right;
+  margin-bottom: 15px;
+}
+
+footer {
+  background-color: palevioletred;
+  height: 50px;
+  clear: both;
+}
