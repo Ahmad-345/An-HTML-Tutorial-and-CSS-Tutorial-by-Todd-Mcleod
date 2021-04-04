@@ -1,0 +1,25 @@
+
+body {
+  width: 85%;
+  margin: 0 auto;
+  border: 4px solid seagreen;
+  font-family: Tahoma, sans-serif;
+}
+
+.box {
+  float: left;
+  /* formatting */
+  width: 250px;
+  height: 125px;
+  line-height: 125px;
+  text-align: center;
+  background-color: tomato;
+  border: 4px solid red;
+  margin: 20px;
+  font-size: 3rem;
+  color: #fff;
+}
+
+.clear {
+  clear: both;
+}
