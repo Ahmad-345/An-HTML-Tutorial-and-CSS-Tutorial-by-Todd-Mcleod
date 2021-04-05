@@ -1,0 +1,8 @@
+body {
+  background-image: url("../../../../00_img/dog.png");
+  background-repeat: repeat-y;
+}
+
+/* 
+  by default the image will repeat itself
+*/
