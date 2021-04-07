@@ -1,0 +1,44 @@
+html, body, div, h1 {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#atf {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 25vh;
+  /* formatting */
+  height: 100vh;
+  background-image: url("../../../../00_img/122.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-size: 10rem;
+  text-align: center;
+  color: rgba(181, 237, 255, 0.94);
+  /* offset-x | offset-y | blur-radius | color */
+  text-shadow: 2px 2px 1px #4c2b03;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 200px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  background-color: thistle;
+  font-size: 4rem;
+  font-family: tahoma, sans-serif;
+  margin: 10px;
+}
