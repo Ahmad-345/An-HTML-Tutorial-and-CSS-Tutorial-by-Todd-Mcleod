@@ -1,0 +1,13 @@
+div {
+  width: 600px;
+  height: 600px;
+  border: 50px solid hotpink;
+  background-color: #3a5fcd;
+  background-image: url("../../../../00_img/dog.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-origin: padding-box;
+  padding: 40px;
+  color: white;
+}
+
