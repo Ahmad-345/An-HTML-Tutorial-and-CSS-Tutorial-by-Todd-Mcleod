@@ -1,0 +1,6 @@
+body {
+  border: 4px solid hotpink;
+  background-image: url("../../../../00_img/dog.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}

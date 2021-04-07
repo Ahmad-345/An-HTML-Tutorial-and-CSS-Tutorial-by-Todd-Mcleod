@@ -1,0 +1,14 @@
+div {
+  width: 700px;
+  height: 700px;
+  border: 6px solid hotpink;
+  background-image: url("../../../../00_img/dog.png");
+  background-repeat: no-repeat;
+  background-position: 300px 500px;
+}
+
+/* 
+  background-position can have the values of left, right,
+  top, bottom, etc OR can have values in pixels for x-axis 
+  and y-axis to position the element accordingly.
+*/
