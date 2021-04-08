@@ -1,0 +1,63 @@
+html {
+  /* border: 10px solid blue; */
+}
+
+body {
+  /* border: 10px solid green; */
+}
+
+#idx-atf {
+  /* layout */
+  height: 100vh;
+  display: flex;
+  /* flex-direction: row; */
+  /* flex-wrap: nowrap; */
+  /* flex-flow: row nowrap; */
+  justify-content: center;
+  align-items: center;
+  /* background */
+  background-color: lightgray;
+  background-image: url("../../../00_img/img/background-photo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* background-origin: border-box; */
+  background-attachment: fixed;
+  /* formatting */
+  /* border: 10px solid hotpink; */
+}
+
+.idx-center {
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: nowrap; */
+  /* flex-flow: row nowrap; */
+  justify-content: center;
+  align-items: center;
+}
+
+.more-content {
+  color: thistle;
+  font-size: 10rem;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.flex-container {
+  width: 85%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 200px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  background-color: thistle;
+  font-size: 3rem;
+  font-family: tahoma, sans-serif;
+  margin: 10px;
+}
