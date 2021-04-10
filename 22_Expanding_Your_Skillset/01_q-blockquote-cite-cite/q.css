@@ -1,0 +1,11 @@
+body {
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  border: 15px solid hotpink;
+  font-family: Tahoma, sans-serif;
+  padding: 2rem;
+  box-sizing: border-box;
+}

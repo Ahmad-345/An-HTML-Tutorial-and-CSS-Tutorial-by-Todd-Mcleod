@@ -1,0 +1,8 @@
+body {
+  font-size: 2rem;
+  height: 100vh;
+  border: 15px solid hotpink;
+  font-family: Tahoma, sans-serif;
+  padding: 2rem;
+  box-sizing: border-box;
+}
