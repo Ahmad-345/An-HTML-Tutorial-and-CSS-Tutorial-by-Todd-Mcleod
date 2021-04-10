@@ -1,0 +1,12 @@
+body {
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  border: 5px solid hotpink;
+  /* font-family: Tahoma, sans-serif; */
+  padding: 2rem;
+  box-sizing: border-box;
+}
