@@ -1,0 +1,12 @@
+#idx-atf {
+  background-image: url("../../../00_img/img/background-photo.jpg");
+}
+
+#idx-atf > div {
+  height: 20vh;
+}
+
+.more-content {
+  font-size: 8rem;
+  margin-bottom: 3rem;
+}
