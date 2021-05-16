@@ -1,0 +1,54 @@
+header {
+  justify-content: space-between;
+}
+
+.logo, nav {
+  margin: 0 1.5rem;
+  display: flex;
+}
+
+header > nav, header svg {
+  display: flex;
+}
+
+header > .logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+header > .logo h1 {
+  margin-left: 0.5rem;
+}
+
+header > nav > ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+header > nav > ul > a {
+  padding: 0 1rem;
+}
+
+header > nav > ul > a:hover {
+  background-color: dimgray;
+  border-radius: 4px;
+}
+
+#idx-atf {
+  background-image: url("../../../../00_img/img/background-photo.jpg");
+}
+
+#idx-atf > div {
+  height: 20vh;
+}
+
+footer nav {
+  display: none;
+}
+
+.more-content {
+  font-size: 8rem;
+  margin-bottom: 3rem;
+}
