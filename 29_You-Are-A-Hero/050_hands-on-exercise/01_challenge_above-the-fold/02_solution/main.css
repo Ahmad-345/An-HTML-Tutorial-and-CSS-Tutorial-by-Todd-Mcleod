@@ -1,0 +1,16 @@
+html, body, div, header {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#atf {
+  height: 100vh;
+  background-image: url("../../../../00_img/bird.jpg");
+  background-size: cover;
+  border: 4px solid hotpink;
+  /* background-attachment: fixed; */
+  background-position: center;
+  /* center text content */
+}
