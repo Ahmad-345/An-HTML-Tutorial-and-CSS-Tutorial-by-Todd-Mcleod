@@ -1,0 +1,67 @@
+html, body, div, header, h1, h2 {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Verdana, sans-serif
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4.5rem;
+  background-color: rgba(255, 192, 203, 0.5);
+  border: 2px solid dodgerblue;
+  /* arrange content */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2.5rem;
+}
+
+header > div {
+  height: 70%;
+  width: 10rem;
+  background-color: rgb(106, 172, 238);
+  border: 2px solid dodgerblue;
+  color: white;
+  font-size: 1.5rem;
+  /* arrange content */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#atf {
+  height: 100vh;
+  background-image: url("../../../../00_img/bird.jpg");
+  background-size: cover;
+  border: 4px solid hotpink;
+  /* background-attachment: fixed; */
+  background-position: center;
+  /* arrange text content */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: #fff;
+  font-size: 4rem;
+  text-align: center;
+  border: 4px solid hotpink;
+}
+
+h2 {
+  color: crimson;
+  font-size: 10rem;
+  font-family: 'Nosifer', cursive;
+  text-align: center;
+  border: 4px solid crimson;
+}
+
