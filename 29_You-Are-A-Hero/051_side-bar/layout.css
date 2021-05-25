@@ -1,0 +1,86 @@
+html, body, div {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+label {
+  /* position */
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  z-index: 1;
+  /* arrange content */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* format */
+  width: 5rem;
+  height: 2rem;
+  border: 0.3rem solid dodgerblue;
+  border-radius: 4px;
+  background-color: rgb(61, 156, 250);
+  color: #fff;
+}
+
+label:hover {
+  background-color: dodgerblue;
+}
+
+input[type="checkbox"]:checked ~ label {
+  /* position */
+  position: fixed;
+  top: 1rem;
+  left: 14.5rem;
+  /* transition */
+  transition-property: all;
+  transition-timing-function: ease;
+  transition-duration: 1s;
+}
+
+input[type="checkbox"] ~ label {
+  /* position */
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  /* transition */
+  transition-property: all;
+  transition-timing-function: ease;
+  transition-duration: 1s;
+}
+
+input[type="checkbox"] {
+  /* toggle */
+  display: none;
+}
+
+#sidebar {
+  /* toggle */
+  position: fixed;
+  left: -50rem;
+  /* formatting */
+  height: 100vh;
+  width: 20vw;
+  background-color: lightgreen;
+  border-right: 2px solid rgb(139, 228, 139);
+  /* transition */
+  transition-property: all;
+  transition-timing-function: ease;
+  transition-duration: 1s;
+}
+
+input[type="checkbox"]:checked ~ #sidebar {
+  /* toggle */
+  left: 0;
+}
+
+ol {
+  margin-top: 5rem;
+  padding-left: 5rem;
+}
+
+li {
+  font-size: 2rem;
+  color: #fff;
+}
