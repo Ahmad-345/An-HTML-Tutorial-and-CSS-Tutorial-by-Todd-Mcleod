@@ -101,8 +101,8 @@ header nav li:last-child a {
 }
 
 header nav li:last-child a:hover {
-  background-color: gainsboro;
-  color: #686868;
+  background-color: rgba(220, 220, 220, 0.2);
+  color: #f4f4f4;
 }
 
 h1 {
