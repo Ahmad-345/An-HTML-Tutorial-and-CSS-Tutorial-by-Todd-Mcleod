@@ -31,7 +31,7 @@ ul {
 
 /* UTILITIES */
 .container {
-  width: 100vw;
+  width: 60vw;
 }
 /* end::UTILITIES */
 
@@ -120,6 +120,14 @@ header nav ul li.line span {
 =====================
 */
 
+main {
+  /* arrange content */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 main .hero {
   /* arrange content */
   display: flex;
@@ -158,7 +166,7 @@ main .hero .hero-text h3 {
   font-weight: 300;
 }
 
-main .hero .hero-text a {
+main a {
   /* arrange content */
   display: flex;
   justify-content: center;
@@ -169,7 +177,6 @@ main .hero .hero-text a {
   margin-top: 1rem;;
   padding: 1rem;
   background-color: crimson;
-  border: 1px solid ebebeb;
   color: #fff;
   text-transform: uppercase;
   font-weight: 500;
@@ -177,4 +184,102 @@ main .hero .hero-text a {
 
 main .hero .hero-text a:hover {
   background-color: rgb(240, 20, 60);
+}
+
+
+/*
+=====================
+--- main --> learn ---
+=====================
+*/
+
+main .learn {
+  /* arrange content */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  /* format  */
+  width: 80%;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+main .learn h2 {
+  color: sienna;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+main .learn h3 {
+  margin-bottom: 0.5rem;
+  margin-top: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: normal;
+}
+
+main .learn .btn-container {
+  /* arrange content */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 4rem;
+}
+
+main .learn .steps-container {
+  /* arrange content */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 20rem;
+}
+
+main .learn .steps-container .steps-to-take {
+  /* arrage content */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 85%;
+  padding: 1rem;
+}
+
+main .learn .steps-to-take > div > img {
+  /* format */
+  width: 100%;
+  height: auto;
+}
+main .learn .steps-to-take > div {
+  /* format */
+  width: 10rem;
+  height: 14rem;
+  background-color: crimson;
+}
+
+main .learn .footer-bar {
+  /* arrage content */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* arrage content */
+  /* format */
+  width: 100%;
+  height: 5rem;
+}
+
+main .learn .footer-bar .link {
+  /* arrage content */
+  display: flex;
+  justify-content: flex-end;
+  /* format */
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+main .learn .footer-bar span {
+  background-color: #ebebeb;
+  height: 2px;
+  width: 80%;
 }
