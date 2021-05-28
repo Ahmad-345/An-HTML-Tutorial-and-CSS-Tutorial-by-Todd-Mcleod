@@ -5,27 +5,109 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 1.5vw;
+  font-family: 'Alice', sans-serif;
+}
 
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+a {
+  text-decoration: none;
+  color: currentColor;
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.8rem;
+  color: #484848
+}
 
+ul {
+  list-style-type: none;
+}
 
+/* UTILITIES */
+.container {
+  width: 60vw;
+}
+/* end::UTILITIES */
 
+/*
+=================
+-----HEADER------
+=================
+*/
 
+header {
+  /* arrange content */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px dashed hotpink; */
+}
 
+h1 {
+  /* format */
+  color: #484848;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 200;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  margin: 1rem 0 0.5rem 0;
+}
 
+/* navigation */
+header nav {
+  width: 100%;
+}
 
+header nav ul {
+  /* arrange content */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
 
+header nav ul li {
+  /* arrange content */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+header nav ul li a {
+  /* arrange content */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* format */
+  height: 30px;
+  margin: 0 0.8rem;
+  padding: 0.6rem 0.8rem;
+  background-color: #f6f6f6;
+  border: 1px solid ebebeb;
+}
 
+header nav ul li a:hover {
+  background-color: #ebebeb;
+}
 
+header nav ul li.line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+}
 
-
-
-
-
-
-
-
-
-
-
+header nav ul li.line span {
+  background-color: #d0d0d0;
+  height: 1px;
+  width: 100%;
+}
