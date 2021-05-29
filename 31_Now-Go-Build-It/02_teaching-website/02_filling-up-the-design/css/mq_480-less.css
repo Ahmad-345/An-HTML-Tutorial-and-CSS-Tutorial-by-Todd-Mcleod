@@ -1,0 +1,21 @@
+h1 {
+  /* format */
+  height: 60%;
+}
+
+footer {
+  /* format */
+  height: 40%;
+  padding-top: 2rem;
+}
+
+footer h3 {
+  /* format */
+  height: 42%;
+  line-height: 1.2;
+}
+
+footer .footer-main-btn {
+  /* format */
+  height: 12%;
+}
