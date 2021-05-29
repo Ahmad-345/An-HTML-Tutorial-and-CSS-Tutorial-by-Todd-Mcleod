@@ -111,7 +111,7 @@ header nav ul li {
   align-items: center;
   /* format */
   width: 100%;
-  height: 60rem;
+  height: auto;
   padding: 1rem;
   background-color: skyblue;
 }
