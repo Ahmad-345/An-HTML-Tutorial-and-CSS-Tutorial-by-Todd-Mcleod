@@ -30,9 +30,19 @@ body {
 
 /* 
 =================
-------Header-----
+------Above The Fold-----
 =================
 */
+#atf {
+  /* arrange content */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
 header {
   /* arrange content */
   display: flex;
@@ -43,7 +53,7 @@ header {
   top: 0;
   /* format */
   width: 100%;
-  height: 2rem;
+  height: 5%;
   padding: 0 1.5rem;
   background-color: whitesmoke;
   border-bottom: 1px solid dimgrey;
@@ -109,7 +119,7 @@ header nav ul li a {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 2rem;
+  height: 1.65rem;
   padding: 0 1rem;
   font-size: 14px;
   color: grey;
@@ -122,19 +132,52 @@ header nav ul li a:hover {
   background-color: #ebebeb;
 }
 
-/* 
-=================
--------Hero------
-=================
-*/
 .hero {
   /* format */
   width: 100%;
-  height: 26.2rem;
+  height: 85%;
   background-color: steelblue;
   background-image: url("../images/adventure-lg.jpg");
   background-size: cover;
-  margin-top: 2rem;
+  background-attachment: fixed;
+}
+
+.atf-footer {
+  /* arrange content */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  /* format */
+  width: 100%;
+  height: 15%;
+}
+
+.atf-footer h1 {
+  font-weight: 300;
+}
+
+.atf-footer > button {
+  /* arrange content */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* format */
+  width: 10%;
+  height: 1.5rem;
+  font-family: 'Roboto Slab', serif;
+  font-size: 0.7rem;
+  font-weight: 300;
+  background-color: #333;
+  color: white;
+  padding: 18px 10px;
+  margin-bottom: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.atf-footer  > button:hover {
+  background-color: #444;
 }
 
 /* 
@@ -168,7 +211,7 @@ header nav ul li a:hover {
   /* background-color: deeppink; */
 }
 
-.adventure .heading h1 {
+.adventure .heading h2 {
   /* arrange content */
   display: flex;
   justify-content: center;
@@ -178,29 +221,6 @@ header nav ul li a:hover {
   height: 1.5rem;
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
-  margin-bottom: 1rem;  
-}
-
-.adventure .heading > button {
-  /* arrange content */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* format */
-  width: 25%;
-  height: 1.5rem;
-  font-family: 'Roboto Slab', serif;
-  font-size: 0.7rem;
-  font-weight: 300;
-  background-color: #333;
-  color: white;
-  padding: 15px 10px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.adventure .heading > button:hover {
-  background-color: #444;
 }
 
 .adventure .portfolio {
