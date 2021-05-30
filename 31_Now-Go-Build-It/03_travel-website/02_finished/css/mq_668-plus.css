@@ -1,0 +1,63 @@
+header {
+  /* arrange content */
+  flex-direction: column;
+  /* format */
+  height: 10vh;
+}
+
+/* navigation */
+header > nav {
+  /* arrange content */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* format */
+  width: 65%;
+  padding: 0.2rem;
+  /* background-color: white; */
+}
+
+header nav ul {
+  /* arrange content */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* format */
+  width: 100%;
+}
+
+header nav ul li {
+  /* arrange content */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* format */
+  margin: 0.2rem;
+}
+
+header nav ul li a {
+  /* arrange content */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1.65rem;
+  padding: 0 1rem;
+  font-size: 14px;
+  color: grey;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  /* background-color: brown; */
+}
+
+header nav ul li a:hover {
+  background-color: #ebebeb;
+}
+
+/* sidebar menu */
+#sidebar-menu {
+  display: none;
+  overflow: hidden;
+  z-index: -99999;
+}
