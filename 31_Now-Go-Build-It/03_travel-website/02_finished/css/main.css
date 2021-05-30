@@ -20,7 +20,6 @@ a {
 }
 
 body {
-  /* website width */
   /* arrange content */
   display: flex;
   flex-direction: column;
@@ -29,9 +28,9 @@ body {
 }
 
 /* 
-=================
-------Above The Fold-----
-=================
+=======================
+----Above The Fold-----
+=======================
 */
 #atf {
   /* arrange content */
@@ -67,13 +66,11 @@ header .logo {
   align-items: center;
   /* format */
   width: 15rem;
-  height: 70%;
   margin-left: 3rem;
   font-size: 0.8rem;
   text-transform: uppercase;
   color: dimgrey;
   cursor: pointer;
-  /* background-color: blanchedalmond; */
 }
 
 /* navigation */
@@ -85,7 +82,6 @@ header nav {
   align-items: center;
   /* format */
   width: 65%;
-  height: 70%;
   padding: 0.2rem;
   /* background-color: white; */
 }
@@ -98,8 +94,6 @@ header nav ul {
   align-items: center;
   /* format */
   width: 100%;
-  height: 95%;
-  /* background-color: gainsboro; */
 }
 
 header nav ul li {
@@ -108,10 +102,7 @@ header nav ul li {
   justify-content: center;
   align-items: center;
   /* format */
-  width: 13%;
-  height: 60%;
   margin: 0.2rem;
-  /* background-color: burlywood; */
 }
 
 header nav ul li a {
@@ -207,8 +198,7 @@ header nav ul li a:hover {
   /* format */
   width: 50%;
   height: 4rem;
-  margin-bottom: 1rem;
-  /* background-color: deeppink; */
+  margin-bottom: 0.2rem;
 }
 
 .adventure .heading h2 {
@@ -217,8 +207,6 @@ header nav ul li a:hover {
   justify-content: center;
   align-items: center;
   /* format */
-  width: 95%;
-  height: 1.5rem;
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
 }
@@ -230,9 +218,6 @@ header nav ul li a:hover {
   justify-content: space-around;
   align-content: flex-start;
   align-items: flex-start;
-  /* format */
-  width: 95%;
-  height: 95%;
 }
 
 .adventure .portfolio .portfolio-cell {
@@ -256,7 +241,7 @@ header nav ul li a:hover {
   align-items: center;
   /* format */
   width: 80%;
-  height: 100%;
+  height: 25rem;
 }
 
 .about .left,
@@ -288,8 +273,6 @@ header nav ul li a:hover {
 .about .left > div > h2,
 .about .right > div > h2 {
   /* format */
-  width: 50%;
-  height: 20%;
   font-size: 0.9rem;
   font-weight: normal;
 }
@@ -297,7 +280,6 @@ header nav ul li a:hover {
 .about .left > div > p,
 .about .right > div > p {
   /* format */
-  width: 95%;
   height: 70%;
   font-size: 0.6rem;
   font-weight: normal;
@@ -327,8 +309,6 @@ footer .footer-info {
   align-items: center;
   /* format */
   width: 47%;
-  height: 4rem;
-  /* background-color: thistle; */
 }
 
 footer .footer-info h3 {
@@ -338,10 +318,8 @@ footer .footer-info h3 {
   align-items: center;
   /* format */
   width: 80%;
-  height: 1.8rem;
   font-size: 0.6rem; 
   font-weight: 300;
-  /* background-color: #c7a3c7; */
 }
 
 footer .footer-links {
@@ -349,10 +327,6 @@ footer .footer-links {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* format */
-  width: 47%;
-  height: 4rem;
-  /* background-color: steelblue; */
 }
 
 footer .footer-links > ul {
@@ -360,10 +334,6 @@ footer .footer-links > ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* format */
-  /* width: 95%; */
-  /* height: 2.5rem; */
-  /* background-color: #2d628d; */
 }
 
 footer .footer-links > ul > li {
@@ -372,11 +342,8 @@ footer .footer-links > ul > li {
   justify-content: center;
   align-items: center;
   /* format */
-  /* width: 15%; */
-  /* height: 1.2rem; */
   margin-left: 1rem;
   background-color: #144975;
-  /* border: 1px solid #0f3b5f; */
 }
 
 footer .footer-links > ul > li > a {
